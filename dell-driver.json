@@ -1,6 +1,6 @@
 {
   "version": "11.5.6200.0",
-  "url": "https://dl.dell.com/FOLDER12268083M/1/DisplayLink-Dock-Driver_M5JVX_WIN_11.5.6200.0_A07.EXE",
+  "url": "file://C:/Users/AVWDROOD/Downloads/DisplayLink-Dock-Driver_M5JVX_WIN_11.5.6200.0_A07.EXE",
   "bin": "DisplayLink-Dock-Driver_M5JVX_WIN_11.5.6200.0_A07.EXE",
   "description": "DisplayLink Docking Station Driver",
   "installer": {
