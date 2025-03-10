@@ -1,0 +1,39 @@
+{
+    "version": "11.5.6200.0",
+    "description": "DisplayLink Dock Driver for Dell Docking Station",
+    "homepage": "https://www.dell.com/support/home",
+    "url": "https://dl.dell.com/FOLDER12268083M/1/DisplayLink-Dock-Driver_M5JVX_WIN_11.5.6200.0_A07.EXE",
+    "extract_dir": "",
+    "installer": {
+        "script": [
+            "$progressPreference = 'SilentlyContinue'",
+            "Start-Process -FilePath '$dir\$file' -ArgumentList '/quiet' -NoNewWindow -Wait"
+        ]
+    },
+    "checkver": {
+        "url": "https://www.dell.com/support/home",
+        "regex": "DisplayLink-Dock-Driver_M5JVX_WIN_(\\d+\\.\\d+\\.\\d+\\.\\d+)_A\\d{2}.EXE"
+    },
+    "autoupdate": {
+        "url": "https://dl.dell.com/FOLDER12268083M/1/DisplayLink-Dock-Driver_M5JVX_WIN_{version}_A07.EXE"
+    }
+}{
+    "version": "11.5.6200.0",
+    "description": "DisplayLink Dock Driver for Dell Docking Station",
+    "homepage": "https://www.dell.com/support/home",
+    "url": "https://dl.dell.com/FOLDER12268083M/1/DisplayLink-Dock-Driver_M5JVX_WIN_11.5.6200.0_A07.EXE",
+    "extract_dir": "",
+    "installer": {
+        "script": [
+            "$progressPreference = 'SilentlyContinue'",
+            "Start-Process -FilePath '$dir\$file' -ArgumentList '/quiet' -NoNewWindow -Wait"
+        ]
+    },
+    "checkver": {
+        "url": "https://www.dell.com/support/home",
+        "regex": "DisplayLink-Dock-Driver_M5JVX_WIN_(\\d+\\.\\d+\\.\\d+\\.\\d+)_A\\d{2}.EXE"
+    },
+    "autoupdate": {
+        "url": "https://dl.dell.com/FOLDER12268083M/1/DisplayLink-Dock-Driver_M5JVX_WIN_{version}_A07.EXE"
+    }
+}
