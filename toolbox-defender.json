@@ -2,7 +2,6 @@
   "version": "1.0.0",
   "description": "My PowerShell Script with D:\\code parameter",
   "url": "https://raw.githubusercontent.com/avwdrood/bucket/main/defender-exclussions.ps1",
-  "hash": "skip",
   "installer": {
     "script": [
       "powershell -ExecutionPolicy Bypass -File \"$dir\\defender-exclusions.ps1\" \"D:\\code\""
