@@ -1,11 +1,11 @@
 {
   "version": "1.0.0",
-  "description": "Toolbox Defender",
-  "url": "https://raw.githubusercontent.com/avwdrood/toolbox/main/toolbox-defender.ps1",
+  "description": "My PowerShell Script with D:\\code parameter",
+  "url": "file:///D:/scoop/apps/jetbrains-toolbox/current/apps/IntelliJ%20IDEA%20Ultimate/bin/defender-exclusions.ps1",
   "hash": "skip",
   "installer": {
     "script": [
-      "powershell.exe -ExecutionPolicy Bypass -File \"$dir\\toolbox-defender.ps1\" \"D:\\code\""
+      "powershell -ExecutionPolicy Bypass -File \"$dir\\defender-exclusions.ps1\" \"D:\\code\""
     ]
   },
   "bin": []
