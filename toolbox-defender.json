@@ -4,7 +4,6 @@
   "homepage": "https://github.com/avwdrood/bucket",
   "license": "MIT",
   "url": "https://raw.githubusercontent.com/avwdrood/bucket/main/defender-exclussions.ps1",
-  "hash": "skip",
   "bin": "defender-exclussions.ps1",
   "post_install": [
     "Write-Host 'To use this script, run:`n  defender-exclussions.ps1 D:\\code' -ForegroundColor Green"
