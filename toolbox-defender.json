@@ -1,11 +1,12 @@
 {
   "version": "1.0.0",
-  "description": "My PowerShell Script with D:\\code parameter",
+  "description": "Adds paths to Microsoft Defender exclusion list if not already excluded",
+  "homepage": "https://github.com/avwdrood/bucket",
+  "license": "MIT",
   "url": "https://raw.githubusercontent.com/avwdrood/bucket/main/defender-exclussions.ps1",
-  "installer": {
-    "script": [
-      "powershell -ExecutionPolicy Bypass -File \"$dir\\defender-exclusions.ps1\" \"D:\\code\""
-    ]
-  },
-  "bin": []
+  "hash": "skip",
+  "bin": "defender-exclussions.ps1",
+  "post_install": [
+    "Write-Host 'To use this script, run:`n  defender-exclussions.ps1 D:\\code' -ForegroundColor Green"
+  ]
 }
